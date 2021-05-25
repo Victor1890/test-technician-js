@@ -1,0 +1,25 @@
+{
+  "name": "test-tcit-fullstack",
+  "version": "0.0.1",
+  "description": "Prueba de Js(ES6) por TCIT ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Victor Rosario <victorrosariodeveloper@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.13.14",
+    "@babel/core": "7.13.15",
+    "@babel/node": "7.13.13",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "7.13.15",
+    "nodemon": "2.0.7"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.13.10"
+  }
+}
